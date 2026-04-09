@@ -3,3 +3,6 @@ SELECT * FROM employees WHERE salary > 40000;
 
 -- Q1: Employees with salary > 40000
 SELECT * FROM employees WHERE salary > 40000;
+
+-- Q2: Sales employees with salary >= 38000
+SELECT * FROM employees WHERE department = 'Sales' AND salary >= 38000;
