@@ -9,3 +9,6 @@ SELECT * FROM employees WHERE department = 'Sales' AND salary >= 38000;
 
 -- Q3: Sort employees by salary (descending)
 SELECT * FROM employees ORDER BY salary DESC;
+
+-- Q4: Total salary
+SELECT SUM(salary) FROM employees;
